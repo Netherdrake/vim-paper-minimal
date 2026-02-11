@@ -13,7 +13,7 @@ if exists('g:syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'paper'
+let g:colors_name = 'paper-minimal'
 
 " Function for creating a highlight group
 "
@@ -127,33 +127,34 @@ endif
 
 " Generic highlight groups
 Hi ColorColumn NONE lbackground NONE
-Hi Comment grey NONE NONE
+Hi Comment green NONE NONE
 Hi Conceal NONE NONE NONE
 Hi Constant black NONE NONE
-Hi Cursor NONE lgrey1 NONE
+Hi Cursor white black NONE
 Hi CursorLine NONE lbackground NONE
 Hi CursorLineNR black NONE bold
 Hi Directory purple NONE NONE
 Hi ErrorMsg red NONE bold
 Hi FoldColumn black background NONE
 Hi Identifier black NONE NONE
-Hi Include black NONE bold
-Hi Keyword black NONE bold
-Hi LineNr black NONE NONE
-Hi Macro orange NONE NONE
-Hi MatchParen NONE NONE bold
+Hi Function black NONE NONE
+Hi Include black NONE NONE
+Hi Keyword black NONE NONE
+Hi LineNr grey NONE NONE
+Hi Macro black NONE NONE
+Hi MatchParen red white bold
 Hi MoreMsg black NONE NONE
 Hi NonText lgrey3 NONE NONE
 Hi Normal black background NONE
 Hi NormalFloat black background NONE
 Hi Bold black NONE bold
-Hi Number blue NONE NONE
+Hi Number black NONE NONE
 Hi Operator black NONE NONE
 Hi Pmenu black lgrey1 NONE
 Hi PmenuSel black lgrey2 bold
 Hi PreProc black NONE NONE
 Hi Question black NONE NONE
-Hi Regexp orange NONE NONE
+Hi Regexp black NONE NONE
 Hi Search NONE lyellow NONE
 Hi IncSearch NONE lyellow NONE
 Hi Special black NONE NONE
@@ -163,7 +164,7 @@ Hi SpellLocal green NONE undercurl
 Hi SpellRare purple NONE undercurl
 Hi StatusLine black lgrey1 NONE
 Hi StatusLineNC black lgrey1 NONE
-Hi String green NONE NONE
+Hi String black NONE NONE
 Hi TabLine dgrey lgrey2 NONE
 Hi TabLineFill black lgrey2 NONE
 Hi TabLineSel black background bold
