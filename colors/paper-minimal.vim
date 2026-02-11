@@ -230,6 +230,11 @@ hi! link diffChanged DiffChange
 hi! link diffRemoved DiffDelete
 hi! link dotKeyChar Operator
 
+" Lualine
+Hi LualineDiffAdd black NONE NONE
+Hi LualineDiffChange black NONE NONE
+Hi LualineDiffDelete black NONE NONE
+
 " Fugitive
 Hi FugitiveblameTime blue NONE NONE
 Hi FugitiveblameHash purple NONE NONE
