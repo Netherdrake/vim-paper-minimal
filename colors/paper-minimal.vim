@@ -131,7 +131,7 @@ Hi Comment green NONE NONE
 Hi Conceal NONE NONE NONE
 Hi Constant black NONE NONE
 Hi Cursor white black NONE
-Hi CursorLine NONE lbackground NONE
+Hi CursorLine NONE lgrey1 NONE
 Hi CursorLineNR black NONE bold
 Hi Directory purple NONE NONE
 Hi ErrorMsg red NONE bold
@@ -195,6 +195,11 @@ hi! link StorageClass Keyword
 hi! link Type Keyword
 hi! link Visual Cursor
 hi! link WildMenu PmenuSel
+
+" telescope
+Hi TelescopeSelection NONE lgrey1 NONE
+Hi TelescopeMatching red NONE NONE
+
 
 " These highlight groups can be used for statuslines, for example when
 " displaying ALE warnings and errors.
@@ -261,29 +266,6 @@ hi! link htmlScriptTag htmlTag
 hi! link htmlSpecialTagName htmlTag
 hi! link htmlTagName htmlTag
 
-" Inko
-Hi inkoCommentBold grey NONE bold
-Hi inkoCommentItalic grey NONE italic
-Hi inkoCommentTitle grey NONE bold
-hi! link inkoCommentInlineUrl Number
-hi! link inkoInstanceVariable Directory
-hi! link inkoKeywordArgument Regexp
-
-" Java
-hi! link javaAnnotation Directory
-hi! link javaCommentTitle javaComment
-hi! link javaDocParam Todo
-hi! link javaDocTags Todo
-hi! link javaExternal Keyword
-hi! link javaStorageClass Keyword
-
-" Javascript
-hi! link JavaScriptNumber Number
-hi! link javaScriptBraces Operator
-hi! link javaScriptFunction Keyword
-hi! link javaScriptIdentifier Keyword
-hi! link javaScriptMember Identifier
-
 " JSON
 hi! link jsonKeyword String
 
@@ -308,32 +290,6 @@ hi! link markdownOrderedListMarker Keyword
 " netrw
 hi! link netrwClassify Identifier
 
-" Perl
-hi! link perlPackageDecl Identifier
-hi! link perlStatementInclude Statement
-hi! link perlStatementPackage Statement
-hi! link podCmdText Todo
-hi! link podCommand Comment
-hi! link podVerbatimLine Todo
-
-" Ruby
-hi! link rubyAttribute Identifier
-hi! link rubyClass Keyword
-hi! link rubyClassVariable rubyInstancevariable
-hi! link rubyConstant Constant
-hi! link rubyDefine Keyword
-hi! link rubyFunction Function
-hi! link rubyInstanceVariable Directory
-hi! link rubyMacro Identifier
-hi! link rubyModule rubyClass
-hi! link rubyRegexp Regexp
-hi! link rubyRegexpCharClass Regexp
-hi! link rubyRegexpDelimiter Regexp
-hi! link rubyRegexpQuantifier Regexp
-hi! link rubyRegexpSpecial Regexp
-hi! link rubyStringDelimiter String
-hi! link rubySymbol Regexp
-
 " Rust
 hi! link rustCommentBlockDoc Comment
 hi! link rustCommentLineDoc Comment
@@ -343,24 +299,11 @@ hi! link rustModPath Identifier
 " Python
 hi! link pythonOperator Keyword
 
-" SASS
-hi! link sassClass cssClassName
-hi! link sassId cssIdentifier
-
 " Shell
 hi! link shFunctionKey Keyword
 
 " SQL
 hi! link sqlKeyword Keyword
-
-" Typescript
-hi! link typescriptBraces Operator
-hi! link typescriptEndColons Operator
-hi! link typescriptExceptions Keyword
-hi! link typescriptFuncKeyword Keyword
-hi! link typescriptFunction Function
-hi! link typescriptIdentifier Identifier
-hi! link typescriptLogicSymbols Operator
 
 " Vimscript
 hi! link VimCommentTitle Todo
