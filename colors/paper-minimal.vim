@@ -59,7 +59,7 @@ let s:colors = {
 \  'blue': '#1e6fcc',
 \  'green': '#216609',
 \  'lgreen': '#dfeacc',
-\  'red': '#cc3e28',
+\  'red': '#98206c',
 \  'grey': '#777777',
 \  'dgrey': '#555555',
 \  'lgrey1': '#d8d5c7',
