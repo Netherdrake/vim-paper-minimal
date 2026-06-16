@@ -157,7 +157,7 @@ Hi Question black NONE NONE
 Hi Regexp black NONE NONE
 Hi Search NONE lyellow NONE
 Hi IncSearch NONE lyellow NONE
-Hi Special black lgrey2 NONE
+Hi Special black NONE NONE
 Hi SpellBad red NONE bold,undercurl
 Hi SpellCap purple NONE undercurl
 Hi SpellLocal green NONE undercurl
