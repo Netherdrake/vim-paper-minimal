@@ -157,7 +157,7 @@ Hi Question black NONE NONE
 Hi Regexp black NONE NONE
 Hi Search NONE lyellow NONE
 Hi IncSearch NONE lyellow NONE
-Hi Special black NONE NONE
+Hi Special black lgrey2 NONE
 Hi SpellBad red NONE bold,undercurl
 Hi SpellCap purple NONE undercurl
 Hi SpellLocal green NONE undercurl
@@ -277,6 +277,11 @@ Hi LspDiagnosticsUnderlineError NONE NONE undercurl red
 Hi LspDiagnosticsUnderlineWarning NONE NONE undercurl yellow
 Hi LspReferenceText NONE lyellow NONE
 Hi LspInlayHint grey NONE NONE
+"Hi DiagnosticVirtualTextHint red NONE NONE
+"Hi DiagnosticVirtualTextInfo red NONE NONE
+"Hi DiagnosticVirtualTextWarn red NONE NONE
+"Hi DiagnosticVirtualTextError red NONE NONE
+
 
 " Make
 hi! link makeTarget Function
