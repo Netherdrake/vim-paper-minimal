@@ -196,7 +196,7 @@ hi! link Type Keyword
 hi! link Visual Cursor
 hi! link WildMenu PmenuSel
 
-" telescope
+" Telescope
 Hi TelescopeSelection NONE lgrey1 NONE
 Hi TelescopeMatching red NONE NONE
 
@@ -303,6 +303,8 @@ hi! link rustModPath Identifier
 
 " Python
 hi! link pythonOperator Keyword
+Hi pythonString orange NONE NONE
+Hi pythonQuotes orange NONE NONE
 
 " Shell
 hi! link shFunctionKey Keyword
