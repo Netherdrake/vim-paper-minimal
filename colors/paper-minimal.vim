@@ -304,6 +304,7 @@ hi! link rustModPath Identifier
 " Python
 hi! link pythonOperator Keyword
 Hi pythonString orange NONE NONE
+Hi pythonFString orange NONE NONE
 Hi pythonQuotes orange NONE NONE
 
 " Shell
